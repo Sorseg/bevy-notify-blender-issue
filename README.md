@@ -3,7 +3,7 @@ where bevy does not pick up changes in a blender file due to how blender saves t
 
 To repro:
 ```shell
-RUST_LOG=trace cargo run | grep test.blend
+RUST_LOG=trace cargo run 2>&1 | grep test.blend
 # then open test.blend in blender and save it
 ```
 Observe `assets/processed` lacking `test.blend` while it should be there.
