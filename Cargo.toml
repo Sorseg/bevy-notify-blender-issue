@@ -1,0 +1,12 @@
+[package]
+name = "debounce_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.13.2" , features = ["asset_processor", "file_watcher"]}
+serde = { version = "1.0.201", features = ["derive"] }
+thiserror = "1.0.60"
+
+[patch.crates-io]
+#notify = {git = "https://github.com/dfaust/notify", rev="b110f0e203d4e278d18d42808dd45fe621a04809"}
