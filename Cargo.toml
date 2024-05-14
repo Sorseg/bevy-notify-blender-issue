@@ -9,4 +9,5 @@ serde = { version = "1.0.201", features = ["derive"] }
 thiserror = "1.0.60"
 
 [patch.crates-io]
-#notify = {git = "https://github.com/dfaust/notify", rev="b110f0e203d4e278d18d42808dd45fe621a04809"}
+notify = {git = "https://github.com/dfaust/notify", rev="b110f0e203d4e278d18d42808dd45fe621a04809"}
+notify-debouncer-full = {git = "https://github.com/dfaust/notify", rev="b110f0e203d4e278d18d42808dd45fe621a04809"}
